@@ -1,10 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SdCode</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SDCode — Mobile App Developer</title>
+  <meta name="description" content="SDCode is an independent mobile app developer. Browse our apps, privacy policies, and terms of service." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sdcode-official.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sdcode-official.github.io/" />
+  <meta property="og:title" content="SDCode — Mobile App Developer" />
+  <meta property="og:description" content="SDCode is an independent mobile app developer. Browse our apps, privacy policies, and terms of service." />
+  <meta property="og:image" content="https://sdcode-official.github.io/assets/images/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/logo.png" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
-  <p>SdCode developer page.</p>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="site-logo">
+        <img src="/assets/images/logo.png" alt="SDCode Logo" />
+        <span class="site-logo-text">SD<span>Code</span></span>
+      </a>
+      <nav class="site-nav">
+        <a href="/" class="active">Home</a>
+        <a href="/privacy-policy/tic-tac-toe/">Privacy Policy</a>
+        <a href="/terms-of-service/tic-tac-toe/">Terms of Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="currentColor"><circle cx="5" cy="5" r="5"/></svg>
+        Independent Developer
+      </div>
+      <h1>Fun Apps Built<br />with <span>Passion</span></h1>
+      <p>We build simple, enjoyable mobile games and apps for Android. All apps are free, ad-supported, and crafted with care.</p>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          Apps on Google Play
+        </div>
+        <div class="hero-meta-item">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9S3 16.97 3 12 7.03 3 12 3s9 4.03 9 9z"/></svg>
+          AdMob Verified Publisher
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Apps ── -->
+  <main class="page-content">
+    <div class="container">
+      <p class="section-heading">Our Apps</p>
+      <h2 class="section-title">Available on Google Play</h2>
+      <p class="section-subtitle">Tap any app to view its privacy policy and terms of service.</p>
+
+      <div class="apps-grid">
+
+        <!-- Tic Tac Toe -->
+        <div class="app-card">
+          <div class="app-card-icon">🎮</div>
+          <div>
+            <div class="app-card-name">Tic Tac Toe — Themes</div>
+            <div class="app-card-desc">Classic Tic Tac Toe with multiple beautiful themes. Play vs AI or a friend. Unlock themes by winning!</div>
+          </div>
+          <div class="app-card-links">
+            <a href="/privacy-policy/tic-tac-toe/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Privacy Policy
+            </a>
+            <a href="/terms-of-service/tic-tac-toe/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
+        <!-- App 2 Placeholder -->
+        <div class="app-card">
+          <div class="app-card-icon">📱</div>
+          <div>
+            <div class="app-card-name">App 2</div>
+            <div class="app-card-desc">Coming soon — another app from SDCode.</div>
+          </div>
+          <div class="app-card-links">
+            <a href="/privacy-policy/app-2/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Privacy Policy
+            </a>
+            <a href="/terms-of-service/app-2/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
+        <!-- App 3 Placeholder -->
+        <div class="app-card">
+          <div class="app-card-icon">🚀</div>
+          <div>
+            <div class="app-card-name">App 3</div>
+            <div class="app-card-desc">Coming soon — another app from SDCode.</div>
+          </div>
+          <div class="app-card-links">
+            <a href="/privacy-policy/app-3/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              Privacy Policy
+            </a>
+            <a href="/terms-of-service/app-3/" class="link-pill">
+              <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+              Terms of Service
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="/assets/images/logo.png" alt="SDCode" />
+          <span class="footer-brand-name">SDCode</span>
+        </div>
+        <div class="footer-links">
+          <a href="/privacy-policy/tic-tac-toe/">Privacy Policy</a>
+          <a href="/terms-of-service/tic-tac-toe/">Terms of Service</a>
+        </div>
+        <div class="footer-copy">
+          &copy; <script>document.write(new Date().getFullYear())</script> SDCode.<br />All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Do not index app-ads.txt as a crawlable page
+Disallow: /app-ads.txt
+
+Sitemap: https://sdcode-official.github.io/sitemap.xml
